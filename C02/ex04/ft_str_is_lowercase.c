@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jalopez- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/08 15:42:09 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/08 18:21:26 by jalopez-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 //#include <stdio.h>
 
 int	ft_str_is_lowercase(char *str)
@@ -21,3 +33,4 @@ int	ft_str_is_lowercase(char *str)
 	printf("%d", ft_str_is_lowercase("abcdefghijkl"));
 	printf("\n%d", ft_str_is_lowercase("abcAdefghijkl"));
 	printf("\n%d", ft_str_is_lowercase("-_134556efSghij67"));
+}*/
