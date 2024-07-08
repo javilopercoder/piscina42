@@ -6,7 +6,7 @@
 /*   By: jalopez- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 16:08:58 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/07 18:02:03 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/08 15:26:38 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ void	ft_ultimate_ft(int *********nbr)
 	int *****nbr4;
 	int ******nbr3;
 	int *******nbr2;
-	int ********nbr1
+	int ********nbr1;
 	int *********nbr;
 
 
-	n = 12 //Puede tener cualquier número aquí
+	n = 12; //Puede tener cualquier número aquí
 	
 
 	nbr8 = &n;
@@ -47,6 +47,6 @@ void	ft_ultimate_ft(int *********nbr)
 
 
 	ft_ultimate_ft(nbr);
-	printf("%d", number);
+	printf("%d", n);
 	return 0;
 }*/

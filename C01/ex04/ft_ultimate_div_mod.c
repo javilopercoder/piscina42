@@ -6,7 +6,7 @@
 /*   By: jalopez- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 18:56:00 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/07 19:05:46 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/08 18:16:21 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,13 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	int	div;
 	int	mod;
 
-	div = *a / *b;
-	mod = *a % *b;
-	*a = div;
-	*b = mod;
+	if (b != 0)
+	{
+		div = *a / *b;
+		mod = *a % *b;
+		*a = div;
+		*b = mod;
+	}
 }
 
 /*int	main()

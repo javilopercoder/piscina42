@@ -1,34 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/07 18:16:14 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/08 15:25:57 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/08 17:09:21 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/08 18:06:22 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
-void	ft_swap(int *a, int *b)
+void	ft_strlen(char *str)
 {
-	int	tmp;
+	int	i;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	i = 0;
+	while (str[i] != ('\0'))
+	{
+		i++;
+	}
+	return (i);
 }
 
-/*int	main()
+/*int	main(void)
 {
-	int	x;
-	int	y;
+	char	*c;
 
-	x = 2;
-	y = 3;
-	ft_swap(&x, &y);
-	printf("%d", x);
-	printf("%d", y);
+	*c = "Hello";
+	printf ("%d", ft_strlen(c));
 }*/
