@@ -6,7 +6,7 @@
 /*   By: jalopez- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 20:07:50 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/07 21:11:55 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/09 13:15:51 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,7 @@ char	*ft_strncpy(char *dest, char *scr, unsigned int n)
 /*int	main()
 {
 	char scr[] = "Hello";
-	char dest[] = "World1";
-	char dest1[] = "World2";
+	char dest[5];
 
-	printf("%s", ft_strncpy(dest, scr, 3));
-        printf("\n%s", strncpy(dest1, scr, 3));
-        printf("\n%s", ft_strncpy(dest, scr, 5));
-        printf("\n%s", strncpy(dest1, scr, 5));
-        printf("\n%s", ft_strncpy(dest, scr, 7));
-        printf("\n%s", strncpy(dest1, scr, 7));
+	printf("%s", ft_strncpy(dest, scr, 4));
 }*/
