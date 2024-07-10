@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 22:01:36 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/10 22:15:22 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/10 22:26:39 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,9 @@ char	*ft_strstr(char *str, char *to_find)
 		j = 0;
 	}
 	return (0);
-}
+i}
+
+//Imprime a partir de lo que pidamos
 
 /*int	main()
 {

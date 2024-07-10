@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 19:59:49 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/10 20:40:15 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/10 22:31:54 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 /*int	main()
 {
-	char	src[] = " World!";
-	char	dest[] = "Hello,";
-	printf("%s", ft_strncat(dest, src, 7));
+	char	src[] = " perdido";
+	char	dest[] = "He";
+	printf("%s", ft_strncat(dest, src, 8));
 }*/
