@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 19:59:49 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/10 22:31:54 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/11 20:34:16 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	{
 		i++;
 	}
-	while (j < nb && src[i] != '\0')
+	while (j < nb && src[j] != '\0')
 	{
-		dest[i +j] = src [j];
+		dest [i + j] = src [j];
 		j++;
 	}
 	dest[i + j] = '\0';
@@ -34,7 +34,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 /*int	main()
 {
-	char	src[] = " perdido";
-	char	dest[] = "He";
+	char	src[] = " perdido y ahora tú también";
+	char	dest[20] = "He";
 	printf("%s", ft_strncat(dest, src, 8));
 }*/

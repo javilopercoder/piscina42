@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 17:20:51 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/10 18:32:20 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/11 20:49:18 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,6 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 	return (0);
 }
-
-//Recorre carácter a carácter hasta n.
-//Para si encuentra un carácter menor o mayor según ASCII
 
 /*int	main()
 {

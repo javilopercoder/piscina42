@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 16:37:10 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/10 18:33:10 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/11 20:48:51 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,8 @@ int	ft_strcmp(char *s1, char *s2)
 	{
 		i++;
 	}
-	return (s1[i] == s2[i]);
+	return (s1[i] - s2[i]);
 }
-
-//Compara si los caracteres son iguales o no
 
 /*int	main()
 {
