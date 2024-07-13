@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/13 14:33:56 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/13 15:32:22 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/13 15:35:19 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 	else
-		ft_putnbr(nb + 48);
+		ft_putchar(nb + 48);
 }
 
 /*int	main(void)
