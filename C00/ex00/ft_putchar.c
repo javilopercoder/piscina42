@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 13:07:44 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/04 22:26:17 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/11 19:20:52 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -17,6 +17,6 @@ void	ft_putchar(char c)
 }
 
 /*int main(){
-	ft_putchar('A');
+	ft_putchar('c');
 	return 0;
 }*/
