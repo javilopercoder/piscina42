@@ -1,30 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 13:46:38 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:19:29 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/15 23:13:35 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/15 23:21:25 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <stdio.h>
 
-void	ft_putstr(char *str)
+int	ft_sqrt(int nb)
 {
-	int	i;
+	long	index;
+	long	a;
 
-	i = 0;
-	while (str[i] != ('\0'))
+	a = nb;
+	if (a <= 0)
+		return (0);
+	if (a == 1)
+		return (1);
+	index = 2;
+	if (a >= 2)
 	{
-		write (1, &str[i], 1);
-		i++;
+		while (index * index <= a)
+		{
+			if (index * index == a)
+				return (index);
+			index++;
+		}
 	}
+	return (0);
 }
 
-/*int	main()
+/*int	main(void)
 {
-	ft_putstr("Just keep swimming");
+	printf("%d", ft_sqrt(25));
 }*/

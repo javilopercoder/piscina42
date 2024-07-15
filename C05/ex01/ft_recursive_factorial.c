@@ -1,30 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 13:46:38 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:19:29 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/15 22:20:29 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/15 22:30:49 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_putstr(char *str)
+int	ft_recursive_factorial(int nb)
 {
-	int	i;
+	int	result;
 
-	i = 0;
-	while (str[i] != ('\0'))
+	result = 1;
+	if (nb > 0)
 	{
-		write (1, &str[i], 1);
-		i++;
+		result *= nb * ft_recursive_factorial (nb - 1);
+		nb -= 1;
 	}
+	if (nb < 0)
+		return (0);
+	return (resutl);
 }
 
-/*int	main()
+/*int	main(void)
 {
-	ft_putstr("Just keep swimming");
+	printf("%i", ft_recursive_factorial(9));
 }*/

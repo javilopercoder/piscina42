@@ -1,30 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 13:46:38 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:19:29 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/15 22:50:09 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/15 22:54:08 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <stdio.h>
 
-void	ft_putstr(char *str)
+int	ft_iterative_power(int nb, int power)
 {
-	int	i;
+	int	result;
 
-	i = 0;
-	while (str[i] != ('\0'))
-	{
-		write (1, &str[i], 1);
-		i++;
-	}
+	result = nb;
+	if (power > 1)
+		return (nb * ft_iterative_power(nb, (power -1)));
+	if (power == 0)
+		return (1);
+	if (power < 0)
+		return (0);
+	return (result);
 }
 
-/*int	main()
+/*int   main(void)
 {
-	ft_putstr("Just keep swimming");
+        printf("%i", ft_iterative_power(3, 3));
 }*/

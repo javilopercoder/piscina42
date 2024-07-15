@@ -1,30 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_is_prime.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 13:46:38 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:19:29 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/15 23:22:15 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/15 23:29:04 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <stdio.h>
 
-void	ft_putstr(char *str)
+int	ft_is_prime(int nb)
 {
 	int	i;
 
-	i = 0;
-	while (str[i] != ('\0'))
+	i = 2;
+	if (nb <= 1)
+		return (0);
+	while (i <= (nb / 2))
 	{
-		write (1, &str[i], 1);
-		i++;
+		if (!(nb % i))
+			return (0);
+		else
+			i += 1;
 	}
+	return (1);
 }
 
-/*int	main()
+/*int	main(void)
 {
-	ft_putstr("Just keep swimming");
+	printf("%d\n", ft_is_prime(9));
+	printf("%d", ft_is_prime(73));
 }*/

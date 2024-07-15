@@ -1,30 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 13:46:38 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:19:29 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/15 22:11:24 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/15 22:32:35 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <stdio.h>
 
-void	ft_putstr(char *str)
+int	ft_iterative_factorial(int nb)
 {
-	int	i;
+	unsigned int	result;
 
-	i = 0;
-	while (str[i] != ('\0'))
+	result = 1;
+	while (nb > 0)
 	{
-		write (1, &str[i], 1);
-		i++;
+		result *= nb;
+		nb--;
 	}
+	if (nb < 0)
+	{
+		return (0);
+	}
+	return (result);
 }
 
-/*int	main()
+/*int	main (void)
 {
-	ft_putstr("Just keep swimming");
+	printf("%d", ft_iterative_factorial(3));
 }*/
