@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 15:07:51 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/16 15:56:36 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/16 23:37:33 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,12 @@ int	ft_is_prime(int nb)
 	i = 2;
 	if (nb <= 1)
 		return (0);
-	while (i <= (nb / i))
+	while (i <= (nb / 2))
 	{
 		if (!(nb % i))
 			return (0);
-		i += 1;
+		else
+			i += 1;
 	}
 	return (1);
 }
@@ -47,5 +48,6 @@ int	ft_find_next_prime(int nb)
 	printf("%d\n", ft_find_next_prime(2));
 	printf("%d\n", ft_find_next_prime(0));
 	printf("%d\n", ft_find_next_prime(2147483646));
-	printf("%d", ft_find_next_prime(2147483647));
+	printf("%d\n", ft_find_next_prime(2147483647));
+	printf("%d", ft_find_next_prime(-2147483648));
 }*/

@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 22:20:29 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/16 18:39:20 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/16 23:35:18 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ int	ft_recursive_factorial(int nb)
 	if (nb > 0)
 	{
 		result *= nb * ft_recursive_factorial (nb - 1);
-		nb -= 1;
 	}
 	if (nb < 0)
 		return (0);
