@@ -6,12 +6,12 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 20:56:58 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/16 22:44:05 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/17 17:15:45 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+//#include <stdio.h>
+//#include <string.h>
 
 int	ft_atoi(char *str)
 {
@@ -39,7 +39,7 @@ int	ft_atoi(char *str)
 	return (nb * sign);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	str1[12];
 	char	str2[12];
@@ -48,12 +48,14 @@ int	main(void)
 	char	str5[12];
 
 	strcpy (str1, "	-123");
-	strcpy (str2, "456";
+	strcpy (str2, "--456";
 	strcpy (str3[] = "	+92";
 	strcpy (str4, "	42abc42";
-	strcpy (str5, "abc";
+	strcpy (str5, "a--bc";
 	printf ("String: '%s' -> Integer: %d\n", str1, ft_atoi(str1));
 	printf ("String: '%s' -> Integer: %d\n", str2, ft_atoi(str2));
-	printf ("String: '%s' -> Integer: %d\n", str5, ft_atoi(str5));
+	printf ("String: '%s' -> Integer: %d\n", str3, ft_atoi(str3));
+	printf ("String: '%s' -> Integer: %d\n", str4, ft_atoi(str4));
+	printf ("String: '%s' -> Integer: %d", str5, ft_atoi(str5));
 	return (0);
-}
+}*/
