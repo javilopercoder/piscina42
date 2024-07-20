@@ -9,8 +9,8 @@ Ejercicios de la piscina de julio 2024
 
 | Proyecto   | Puntuación | Observaciones            |
 |------------|------------|--------------------------|
-| Shell 00   | 85%        | Último mal               |
-| Shell 01   | 100%       |                          |
+| Shell 00   | 100%       |                          |
+| Shell 01   | 70%        |       Último mal         |
 
 ## C
 
