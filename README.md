@@ -47,9 +47,9 @@ Ejercicios de la piscina de julio 2024
 
 ## Exámenes
 
-| Proyecto     | Puntuación | Observaciones            |
-|--------------|------------|--------------------------|
-| Exam 00      | 0%         |                          |
-| Exam 01      | 40%        |                          |
-| Exam 02      | 20%        |                          |
-| Exam Final   |            |                          |
+| Proyecto     | Puntuación | Observaciones                |
+|--------------|------------|------------------------------|
+| Exam 00      | 0%         |  Algorithms & AI; Unix       |
+| Exam 01      | 40%        |  Algorithms & AI; Unix       |
+| Exam 02      | 20%        |Unix; Adaptation & creativity |
+| Exam Final   |            |Unix; Adaptation & creativity |
