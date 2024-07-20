@@ -1,6 +1,7 @@
 # piscina42
 Ejercicios de la piscina de julio 2024
 
+![Logo del Proyecto](https://www.42madrid.com/wp-content/uploads/2020/05/42-Madrid-Quiz-1366x621.jpg)
 
 # Resultados de Proyectos y Exámenes
 
