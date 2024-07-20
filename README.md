@@ -20,7 +20,7 @@ Ejercicios de la piscina de julio 2024
 | C 01       | 70%        | Corregido pero no subido        |
 | C 02       | 55%        |                                 |
 | C 03       | 75%        |                                 |
-| C 04       | 50%        |                                 |
+| C 04       | 70%        |                                 |
 | C 05       | 80%        |                                 |
 | C 06       |            |                                 |
 | C 07       |            |                                 |
