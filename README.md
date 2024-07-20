@@ -1,5 +1,5 @@
 # piscina42
-Ejercicios de la piscina de 42
+Ejercicios de la piscina de 42 julio 2024
 
 
 # Resultados de Proyectos y Exámenes
