@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_program_name.c                            :+:      :+:    :+:   */
+/*   ft_print_params.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/18 17:13:21 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/20 20:14:46 by jalopez-         ###   ########.fr       */
+/*   Created: 2024/07/20 19:09:25 by jalopez-          #+#    #+#             */
+/*   Updated: 2024/07/20 19:21:57 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,19 @@ void	ft_putchar(char c)
 int	main(int argc, char *argv[])
 {
 	int	i;
+	int	j;
 
-	i = 0;
-	while (argv[0][i] != '\0' && argc)
+	j = 1;
+	while (j < argc)
 	{
-		ft_putchar(argv[0][i]);
-		++i;
+		i = 0;
+		while (argv[j][i] != '\0')
+		{
+			ft_putchar(argv[j][i]);
+			i++;
+		}
+		ft_putchar('\n');
+		j++;
 	}
-	ft_putchar ('\n');
 	return (0);
 }

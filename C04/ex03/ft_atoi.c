@@ -6,7 +6,7 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 20:56:58 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/17 17:15:45 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/18 18:07:28 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,10 +48,10 @@ int	ft_atoi(char *str)
 	char	str5[12];
 
 	strcpy (str1, "	-123");
-	strcpy (str2, "--456";
-	strcpy (str3[] = "	+92";
-	strcpy (str4, "	42abc42";
-	strcpy (str5, "a--bc";
+	strcpy (str2, "--456");
+	strcpy (str3, "	+92");
+	strcpy (str4, "	42abc42");
+	strcpy (str5, "a--bc");
 	printf ("String: '%s' -> Integer: %d\n", str1, ft_atoi(str1));
 	printf ("String: '%s' -> Integer: %d\n", str2, ft_atoi(str2));
 	printf ("String: '%s' -> Integer: %d\n", str3, ft_atoi(str3));
