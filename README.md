@@ -17,12 +17,12 @@ Ejercicios de la piscina de julio 2024
 | Proyecto   | Puntuación | Observaciones                   |
 |------------|------------|---------------------------------|
 | C 00       | 100%       |                                 |
-| C 01       | 70%        | Corregido pero no subido        |
-| C 02       | 55%        |                                 |
+| C 01       | 100%       |                                 |
+| C 02       | 75%        |                                 |
 | C 03       | 75%        |                                 |
 | C 04       | 70%        |                                 |
 | C 05       | 80%        |                                 |
-| C 06       |            |                                 |
+| C 06       | 100%       |                                 |
 | C 07       |            |                                 |
 | C 08       |            |                                 |
 | C 09       |            |                                 |
