@@ -6,13 +6,13 @@
 /*   By: jalopez- <jalopez-@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/21 06:20:25 by jalopez-          #+#    #+#             */
-/*   Updated: 2024/07/21 06:56:05 by jalopez-         ###   ########.fr       */
+/*   Updated: 2024/07/22 16:20:03 by jalopez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+//#include <string.h>
+//#include <stdio.h>
 
 int	ft_str_length(char *str)
 {
