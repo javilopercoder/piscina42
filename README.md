@@ -7,6 +7,10 @@ Ejercicios de la piscina de julio 2024
 
 # Level  06 -  02%
 
+Unix 7.04
+Rigor 5.19
+Algorithms & AI 5.25
+
 ## Shell
 
 | Proyecto   | Puntuación | Observaciones            |
