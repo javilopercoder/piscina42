@@ -19,11 +19,11 @@ Ejercicios de la piscina de julio 2024
 | C 00       | 100%       |                                 |
 | C 01       | 100%       |                                 |
 | C 02       | 75%        |                                 |
-| C 03       | 75%        |                                 |
+| C 03       | 100%       |                                 |
 | C 04       | 70%        |                                 |
 | C 05       | 80%        |                                 |
 | C 06       | 100%       |                                 |
-| C 07       |            |                                 |
+| C 07       | 60%        |                                 |
 | C 08       |            |                                 |
 | C 09       |            |                                 |
 | C 10       |            |                                 |
@@ -43,7 +43,7 @@ Ejercicios de la piscina de julio 2024
 
 | Proyecto   | Puntuación | Observaciones            |
 |------------|------------|--------------------------|
-| BSQ        |            |                          |
+| BSQ        | NP         |                          |
 
 ## Exámenes
 
