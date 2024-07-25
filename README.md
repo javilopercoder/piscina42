@@ -62,6 +62,8 @@ Ejercicios de la piscina de julio 2024
 | Exam 02      | 20%        |Unix; Adaptation & creativity |
 | Exam Final   |            |Unix; Adaptation & creativity |
 
+## Horas en 42
+
 | Día | Horas conectado |
 |-----|-----------------|
 | 01  | 5h 35min        |
