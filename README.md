@@ -5,6 +5,8 @@ Ejercicios de la piscina de julio 2024
 
 # Resultados de Proyectos y Exámenes
 
+# Level  06 -  02%
+
 ## Shell
 
 | Proyecto   | Puntuación | Observaciones            |
