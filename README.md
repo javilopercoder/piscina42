@@ -90,6 +90,6 @@ Ejercicios de la piscina de julio 2024
 | 22  | 8h 14min        |
 | 23  | 4h 02min        |
 | 24  | 10h 47min       |
-| 25  | 4h 52min        |
+| 25  | 4h 50min        |
 | 26  |                 |
 
