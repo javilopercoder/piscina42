@@ -5,13 +5,14 @@ Ejercicios de la piscina de julio 2024
 
 # Resultados de Proyectos y Exámenes
 
-# Level  06 -  02%
+# Level  06 - 21%
 
-| Skills         | Puntuación |
-|----------------|------------|
-| Unix           | 7.04       |
-| Rigor          | 5.19       |
-|Algorithms & AI | 5.25       |
+| Skills                | Puntuación |
+|-----------------------|------------|
+| Unix                  | 7.56       |
+| Rigor                 | 5.19       |
+|Algorithms & AI        | 5.25       |
+|Adaptation & Creativity| 0.76       |
 
 ## Shell
 
@@ -60,7 +61,7 @@ Ejercicios de la piscina de julio 2024
 | Exam 00      | 0%         |  Algorithms & AI; Unix       |
 | Exam 01      | 40%        |  Algorithms & AI; Unix       |
 | Exam 02      | 20%        |Unix; Adaptation & creativity |
-| Exam Final   |            |Unix; Adaptation & creativity |
+| Exam Final   | 12%        |Unix; Adaptation & creativity |
 
 ## Horas en 42
 
