@@ -33,26 +33,26 @@ Ejercicios de la piscina de julio 2024
 | C 05       | 80%        |                                 |
 | C 06       | 100%       |                                 |
 | C 07       | 60%        |                                 |
-| C 08       |            |                                 |
-| C 09       |            |                                 |
-| C 10       |            |                                 |
-| C 11       |            |                                 |
-| C 12       |            |                                 |
-| C 13       |            |                                 |
+| C 08       | NaN        |                                 |
+| C 09       | NaN        |                                 |
+| C 10       | NaN        |                                 |
+| C 11       | NaN        |                                 |
+| C 12       | NaN        |                                 |
+| C 13       | NaN        |                                 |
 
 ## Rush
 
 | Proyecto   | Puntuación | Observaciones            |
 |------------|------------|--------------------------|
 | Rush 00    | 0%         | Código bien              |
-| Rush 01    | NP         |                          |
-| Rush 02    | NP         |                          |
+| Rush 01    | NaN        |                          |
+| Rush 02    | NaN        |                          |
 
 ## BSQ
 
 | Proyecto   | Puntuación | Observaciones            |
 |------------|------------|--------------------------|
-| BSQ        | NP         |                          |
+| BSQ        | NaN        |                          |
 
 ## Exámenes
 
@@ -92,5 +92,8 @@ Ejercicios de la piscina de julio 2024
 | 23  | 4h 02min        |
 | 24  | 10h 47min       |
 | 25  | 4h 50min        |
-| 26  |                 |
+| 26  | NaN             |
 
+# Resultado
+
+Aprobado
